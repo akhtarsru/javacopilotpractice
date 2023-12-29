@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListProcessor {
+public class t1 {
     public static void main(String[] args) {
         List<String> words = new ArrayList<>();
         words.add("apple");
@@ -11,6 +11,8 @@ public class ListProcessor {
         // Task: Use Copilot to complete the code to print each word in uppercase
         for (String word : words) {
             // TODO: Complete the code here
+            String uppercaseWord = word.toUpperCase();
+            System.out.println(uppercaseWord);
         }
     }
 }
